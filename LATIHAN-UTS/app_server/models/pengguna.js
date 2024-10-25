@@ -2,7 +2,7 @@ let mongoose = require("mongoose");
 
 //https://mongoosejs.com/docs/schematypes.html
 //Create Collection Schema
-let schemaPgn = new mongoose.Schema({
+let Schemapgn = new mongoose.Schema({
   nama: String,
   email: {
     type: String,
